@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 // import fs from "node:fs";
 // import mime from "mime-types";
 
-const apiKey = "AIzaSyBb5PODqrabPjKD5_t_Vg7hoOqwabn_TxE"
+const apiKey = "AIzaSyD51T7w5KrVLMbAq_JeqEnTtCRVwWzK_kI"
 if (!apiKey) {
   console.error("GEMINI_API_KEY is not set.");
   process.exit(1);
@@ -61,3 +61,4 @@ async function run(prompt) {
 }
 
 export default run;
+
